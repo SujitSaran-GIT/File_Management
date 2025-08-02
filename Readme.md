@@ -56,8 +56,8 @@ The DMS‑Backend is a RESTful service allowing:
 
 ### Clone & Install
 ```bash
-git clone <your‑repo‑url> dms-backend
-cd dms-backend
+git clone <your‑repo‑url>
+cd backend
 npm install
 
 ```
