@@ -247,7 +247,7 @@ If unsupported or error:
 
 ### Supported File Types & Preview Rules
 
-|---------------------|----------------------------------------------------------------------|------------------------------------------------------|
+
 | Category            | Example MIME Types                                                   | Preview Behavior                                     |
 |---------------------|----------------------------------------------------------------------|------------------------------------------------------|
 | Images              | `image/jpeg`, `image/png`, `image/gif`, `image/webp`                 | Generates an 800 × 800px thumbnail                   |
@@ -255,7 +255,7 @@ If unsupported or error:
 | Office Documents    | Microsoft Word / Excel / PowerPoint formats (both legacy and modern) | Converted to PDF, then rendered as a preview image   |
 | Text / CSV / JSON   | `text/plain`, `text/csv`, `application/json`                         | Renders a snippet of the text content as an image    |
 | Others              | Unrecognized or unsupported types                                    | Returns a fallback PNG with an “Unsupported” message |
-|---------------------|----------------------------------------------------------------------|------------------------------------------------------|
+
 ---
 ## Error Handling
 Across endpoints:
